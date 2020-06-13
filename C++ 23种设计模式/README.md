@@ -1,44 +1,85 @@
 23种设计模式
 
+
 创建型模式
+
 	工厂模式(Factory)
+
 	抽象工厂模式(Abstract Factory )
+
 	单例模式(Singleton)
+
 	建造者模式（Builder）
+
 	原型模式(Prototype)
+
+
 结构性模式
+
 	适配器模式(Adapter)
+	
 	桥接模式（Bridge）
+
 	过滤器模式(Filter,Criteria)
+
 	组合模式（Composite）
+
 	装饰器模式(Decorator)
+
 	外观模式（Facade）
+
 	享元模式（Flyweight）
+
 	代理模式（Proxy）
+
+
 行为型模式
+
 	责任链模式（Chain of Responsibility）
+
 	命令模式（Command）
+
 	解释器模式（Interpreter）
+
 	迭代器模式（Iterator）
+
 	中介者模式（Mediator）
+
 	备忘录模式（Memento）
+
 	观察者模式（Observer）
+
 	状态模式（State）
+
 	空对象模式（Null Object）
+
 	策略模式（Strategy）
+
 	模板模式（Template）
+
 	访问者模式（Visitor）
+
+
 J2EE模式
+
 	MVC模式
+
 	业务代表模式
+
 	组合实体模式
+
 	数据访问对象模式
+
 	前端控制器模式
+
 	拦截过滤器模式
+	
 	服务定位器模式
+
 	传输对象模式
 
 设计模式的六大原则
+
 1、开闭原则（Open Close Principle）
 
 开闭原则的意思是：对扩展开放，对修改关闭。在程序需要进行拓展的时候，不能去修改原有的代码，实现一个热插拔的效果。简言之，是为了使程序的扩展性好，易于维护和升级。想要达到这样的效果，我们需要使用接口和抽象类，后面的具体设计中我们会提到这点。
