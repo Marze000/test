@@ -4,13 +4,14 @@ public:
 	virtual void Operator1() = 0;
 	virtual void Operator2() = 0;
 	virtual void Operator3() = 0;
-	NetworkState();
 	virtual ~NetworkState(){}
-	
 };
 
+// 对于打开状态，对应的操作不一样
 class OpenState:public NetworkState{
+private:
 	static NetworkState* m_instance;
+
 public:
 	static NetworkState* getInstance(){
 		if(m_instance == nullptr){
@@ -55,5 +56,4 @@ public:
 		pState->Operator3();
 		pState = pState->PNext;
 	}
-	
 };
